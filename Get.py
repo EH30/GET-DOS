@@ -32,7 +32,7 @@ if user is "SUB":
         os.system("sudo apt-get install gcc")
         os.system("sudo apt-get install figlet")
         os.system("sudo apt-get install git")
-        os.system("figlet SUBSRIBE")
+        os.system("figlet SUBSCRIBE")
         os.system("git clone https://github.com/EH30/DOS-Scripts")
 
 print ("SUBSCRIBE: https://www.youtube.com/channel/UCKAmv8p_TRvUNrJlfiB8qBQ ")
