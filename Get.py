@@ -28,11 +28,13 @@ passwd = input("Password: ")
 
 if user is "SUB":
     if passwd is "kali":
+        os.system("clear")
         print "Hello Admin"
-        os.system("sudo apt-get install gcc")
         os.system("sudo apt-get install figlet")
-        os.system("sudo apt-get install git")
+        os.system("clear")
         os.system("figlet SUBSCRIBE")
+        os.system("sudo apt-get install gcc")
+        os.system("sudo apt-get install git")
         os.system("git clone https://github.com/EH30/DOS-Scripts")
 
 print ("SUBSCRIBE: https://www.youtube.com/channel/UCKAmv8p_TRvUNrJlfiB8qBQ ")
